@@ -1,0 +1,24 @@
+{
+  "name": "bk",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazoxx/bk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blazoxx/bk/issues"
+  },
+  "homepage": "https://github.com/blazoxx/bk#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
