@@ -1,0 +1,23 @@
+{
+  "name": "bk-deploy",
+  "version": "1.0.0",
+  "description": "this is how we deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazoxx/bk.git"
+  },
+  "author": "blazox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blazoxx/bk/issues"
+  },
+  "homepage": "https://github.com/blazoxx/bk#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
