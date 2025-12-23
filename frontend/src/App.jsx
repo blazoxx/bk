@@ -14,7 +14,7 @@ function App() {
       .catch(error => {
         console.error('There was an error fetching the cars!', error);
       });
-  }, [])
+  })
 
   return (
     <>
@@ -22,8 +22,8 @@ function App() {
       <p>Cars: {cars.length}</p>
       {
         cars.map((car, index) => (
-          <div key={cars.id}>
-            <h2>{car.make} {car.model}</h2>
+          <div key={index}>
+            <h2>{car.id} {car.make} {car.model}</h2>
             <p>Year: {car.year}</p>
           </div>
         ))
