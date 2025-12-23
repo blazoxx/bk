@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/blazoxx/bk#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1"
   }
 }
